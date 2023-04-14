@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cb80fce-bed1-428e-8b1f-70ec3e2b1926" name="Changes" comment="HomeWork18" />
+    <list default="true" id="4cb80fce-bed1-428e-8b1f-70ec3e2b1926" name="Changes" comment="HomeWork18">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebAppTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +66,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebAppTest.checkLoginPasswordMethodOption" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeWork18" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WebAppTest" />
+      <option name="METHOD_NAME" value="checkLoginPasswordMethodOption" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebAppTest.emptyLoginPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeWork18" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WebAppTest" />
+      <option name="METHOD_NAME" value="emptyLoginPassword" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WebAppTest.incorrectLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HomeWork18" />
       <option name="PACKAGE_NAME" value="" />
@@ -73,33 +96,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebAppTest.incorrectSmartIdLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HomeWork18" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WebAppTest" />
-      <option name="METHOD_NAME" value="incorrectSmartIdLogin" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebAppTest.loginSmardIdMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HomeWork18" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WebAppTest" />
-      <option name="METHOD_NAME" value="loginSmardIdMethod" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.WebAppTest" />
-        <item itemvalue="JUnit.WebAppTest.incorrectLogin" />
-        <item itemvalue="JUnit.WebAppTest.incorrectSmartIdLogin" />
+        <item itemvalue="JUnit.WebAppTest.checkLoginPasswordMethodOption" />
         <item itemvalue="JUnit.WebAppTest.checkLoginMobileIdMethodOption" />
-        <item itemvalue="JUnit.WebAppTest.loginSmardIdMethod" />
+        <item itemvalue="JUnit.WebAppTest.incorrectLogin" />
+        <item itemvalue="JUnit.WebAppTest.emptyLoginPassword" />
       </list>
     </recent_temporary>
   </component>
