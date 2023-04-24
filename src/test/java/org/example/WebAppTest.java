@@ -32,11 +32,13 @@ public class WebAppTest {
 
         Configuration.holdBrowserOpen = true;
 
-        $(By.xpath("//*[@data-cy='method-password']")).click();
+        LoginPage loginPage = new LoginPage();
 
-        $(By.xpath("//*[@id='login-field']/div/input")).shouldBe(Condition.editable);
+        loginPage.methodPassword();
 
-        $(By.xpath("//*[@id='password-field']/div/input")).shouldBe(Condition.editable);
+        loginPage.editableLoginField();
+
+        loginPage.editablePasswordField();
 
 
     }
@@ -45,11 +47,13 @@ public class WebAppTest {
     public void checkLoginSmardIdMethodOption() {
         Configuration.holdBrowserOpen = true;
 
-        $(By.xpath("//*[@data-cy='method-smart-id']")).click();
+        LoginPage loginPage = new LoginPage();
 
-        $(By.xpath("//*[@data-cy='method-smart-id']")).shouldBe(Condition.editable);
+        loginPage.smartIdMethod();
 
-        $(By.xpath("//*[@data-cy='smart-id-login-button']")).shouldBe(Condition.visible);
+        loginPage.editableSmartIdMethod();
+
+        loginPage.smartIdLoginButtonVisible();
 
     }
 
@@ -57,13 +61,15 @@ public class WebAppTest {
     public void checkLoginMobileIdMethodOption() {
         Configuration.holdBrowserOpen = true;
 
-        $(By.xpath("//*[@data-cy='method-mobile-id']")).click();
+        LoginPage loginPage = new LoginPage();
 
-        $(By.xpath("//*[@data-cy='mobile-id-phone-input']")).shouldBe(Condition.editable);
+        loginPage.mobileIdMethod();
 
-        $(By.xpath("//*[@id='pin-field']/div/input")).shouldBe(Condition.editable);
+        loginPage.mobileIdPhoneInput();
 
-        $(By.xpath("//*[@data-cy='mobile-id-login-button']")).shouldBe(Condition.visible);
+        loginPage.mobileIdPinField();
+
+        loginPage.mobileIdLoginButton();
 
 
 
@@ -75,16 +81,15 @@ public class WebAppTest {
 
         LoginPage loginPage = new LoginPage();
 
-
-        $(By.xpath("//*[@data-cy='method-smart-id']")).click();
+        loginPage.smartIdMethod();
 
         loginPage.insertIdCode("123");
 
-        $(By.xpath("//*[@data-cy='smart-id-login-button']")).click();
+        loginPage.smartIdLoginButton();
 
-        $(By.xpath("//*[@data-cy='smart-id-input']/div/input")).shouldBe(Condition.editable);
+        loginPage.smartIdInput();
 
-        $(By.xpath("//*[@data-cy='smart-id-login-button']")).shouldBe(Condition.visible);
+        loginPage.smartIdLoginButtonVisible();
 
 
 
@@ -99,20 +104,21 @@ public class WebAppTest {
         LoginPage loginPage = new LoginPage();
 
 
-        $(By.xpath("//*[@data-cy='method-password']")).click();
+        loginPage.methodPassword();
 
-        $(By.xpath("//*[@data-cy='password-login-button']")).click();
+        loginPage.passwordLoginButton();
 
         loginPage.insertUsername("serafims");
+
         loginPage.insertPassword("hellouser123");
 
-        $(By.xpath("//*[@data-cy='username-input']/div/input")).shouldBe(Condition.editable);
+        loginPage.usernameInput();
 
-        $(By.xpath("//*[@data-cy='password-input']/div/input")).shouldBe(Condition.editable);
+        loginPage.passwordInput();
 
-        $(By.xpath("//*[@data-cy='password-login-button']")).shouldBe(Condition.visible);
+        loginPage.passLogInButton();
 
-        $(By.xpath("//*[@data-cy='password-login-error']")).shouldBe(Condition.visible);
+        loginPage.passwordLoginError();
 
 
 
@@ -121,14 +127,15 @@ public class WebAppTest {
     @Test
     public void emptyLoginPassword() {
 
+        LoginPage loginPage = new LoginPage();
 
-        $(By.xpath("//*[@data-cy='method-password']")).click();
+        loginPage.methodPassword();
 
-        $(By.xpath("//*[@id='login-field']/div/input")).click();
+        loginPage.loginField();
 
-        $(By.xpath("//*[@data-cy='password-input']/div/input")).click();
+        loginPage.clickPasswordInput();
 
-        $(By.xpath("//*[@data-cy='password-login-button']")).shouldBe(Condition.disabled);
+        loginPage.passwordLoginButtonDisabled();
 
     }
 

@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cb80fce-bed1-428e-8b1f-70ec3e2b1926" name="Changes" comment="HomeWork18#Corrected">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/LoginPage.java" afterDir="false" />
+    <list default="true" id="4cb80fce-bed1-428e-8b1f-70ec3e2b1926" name="Changes" comment="Homework#19">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WebAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/WebAppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/WebAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/WebAppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WebAppTest.incorrectLogin">
+  <component name="RunManager" selected="JUnit.WebAppTest">
     <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HomeWork18" />
       <extension name="coverage">
@@ -133,9 +133,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WebAppTest" />
         <item itemvalue="JUnit.WebAppTest.incorrectLogin" />
         <item itemvalue="JUnit.WebAppTest.incorrectSmartIdLogin" />
-        <item itemvalue="JUnit.WebAppTest" />
         <item itemvalue="JUnit.WebAppTest.emptyLoginPassword" />
         <item itemvalue="JUnit.LoginTest" />
       </list>
@@ -185,12 +185,20 @@
       <option name="project" value="LOCAL" />
       <updated>1681499426898</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Homework#19">
+      <created>1682357350706</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682357350706</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HomeWork18" />
     <MESSAGE value="HomeWork18#Corrected" />
-    <option name="LAST_COMMIT_MESSAGE" value="HomeWork18#Corrected" />
+    <MESSAGE value="Homework#19" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework#19" />
   </component>
 </project>
